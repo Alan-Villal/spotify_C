@@ -84,18 +84,66 @@ body{
 }
 .dowload:hover{
     box-shadow: 0 0 20px rgba(0, 255, 204, 0.8), 0 0 40px rgba(0, 255, 204, 0.6);
-    background-color: #28d445;
+    background-color: #1ed760;
     color: #000;
 }
 .hero a{
-    color: #28d445;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
 .hero a:hover{
-    color: #ffccff;
-    text-shadow: 
-        0 0 5px  #28d445,
-        0 0 10px #28d445, 
-        0 0 20px #28d445, 
-        0 0 30px #28d445;
-        padding: 20px;
+    color: #1ed760;
+}
+.benefits{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefit-content{
+    width: 80%;
+    height: 400px;
+    background-color: #1ed760;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefit-card{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.plans{
+    background-color: rgb(237, 26, 26);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plans-content{
+    width: 80%;
+    height: 400px;
+    background-color: #1ed760;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plans-card{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
